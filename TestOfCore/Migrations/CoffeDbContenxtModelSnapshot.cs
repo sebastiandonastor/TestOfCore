@@ -35,6 +35,19 @@ namespace TestOfCore.Migrations
 
                     b.ToTable("Coffes");
                 });
+
+            modelBuilder.Entity("TestOfCore.Models.Te", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Teses");
+                });
 #pragma warning restore 612, 618
         }
     }
