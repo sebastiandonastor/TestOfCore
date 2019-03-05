@@ -10,6 +10,7 @@ namespace TestOfCore.Models
         public int Id { get; set; }
         public int Name { get; set; }
         public DateTime FechaCreacion { get; set; }
+        public String OhSorpresaSoyUnPillo { get; set; }
         public int Suculentidad { get; set; }
     }
 }
