@@ -14,5 +14,6 @@ namespace TestOfCore.Models
         }
 
         public DbSet<Coffe> Coffes {get; set;}
+        public DbSet<Te> Teses {get; set;}
     }
 }
